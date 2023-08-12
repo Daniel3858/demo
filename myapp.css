@@ -1,0 +1,83 @@
+/* 1° * {
+    margin: 0;
+    padding: 0;
+    color:aliceblue;
+}
+
+body {
+    background-color: black;
+    height: 50vh;
+    width: 99vw;
+}
+
+header {
+    font-size: 30px;
+    font-weight: bolder;
+    height:10vh;
+    background-color: rgb(42, 42, 134);
+    color:black;
+    text-align: center; 
+    word-spacing: 20px;
+    justify-items: center;
+}
+
+header nav {
+    display: inline;
+}
+
+#pesquisar {
+    padding: 10px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+#descer {
+    background-color: cadetblue;
+    position: relative;
+    top: 10px;
+    left: 150px;
+    height: 45px;
+    width: 45px;
+    border-radius: 8px;
+    cursor: grabbing;
+    transition: filter;
+}
+
+#descer:hover {
+    filter: brightness(0.9);
+}
+
+img {
+    position: relative;
+    right: 3px;
+    bottom: 3px;
+}
+
+footer {
+    position: relative;
+    height: 5vh;
+    text-align: center;
+    top: 500px;
+    color: black;
+    background-color: darkgray;
+}
+
+main {
+    position: relative;
+    left: 200px;
+    box-sizing: border-box;
+    height: 150vh;
+    width: 70vw;
+    text-align: center;
+    border: 2px solid;
+}
+
+main img {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-image: url(https://st.depositphotos.com/1329225/5078/i/600/depositphotos_50780051-stock-photo-golden-key-isolated-on-white.jpg);
+    background-repeat: no-repeat; 
+    background-size: 200px 200px;
+} */
+
