@@ -1,4 +1,4 @@
-/*function fazerSuco(fruta1, fruta2) {     
+/* function fazerSuco(fruta1, fruta2) {     
     return 'suco de: ' + fruta1 + ' com ' + fruta2
 }
 const suco1 = fazerSuco('manga', 'graviola')
@@ -252,4 +252,46 @@ console.log(`Olá ${jeito1.getFlag()},
   color: "blue"
 }
 const pinkBol = {...blueBol, color:"pink"} */
+/* console.log('pedindo uber')
+let pedido = true 
+
+const promessa = new Promise((resolve, reject) => {
+  if (pedido == true) {
+    return resolve("Carro chegou")
+  } return reject("Pedido negado.")
+})
+
+promessa
+.then(result => {console.log(result)})
+.catch(erro => {console.log(erro)})
+.finally(() => {console.log("Finalizada!")})
+console.log('Aguardando resposta') 
+
+
+const { STATUS_CODES } = require("http")
+const https = require("https")
+const API = "https://www.gooogle.com"
+https.get(API, response => console.log(response.statusCode)) */
+/* import axios from "axios";
+
+Promise.all([
+  axios.get("https://api.github.com/users/Daniel3858"),
+  axios.get("https://api.github.com/users/Daniel3858/repos")
+])
+.then(responses => {
+  console.log(responses[0].data.login)
+  console.log(responses[1].data.length)
+})
+.catch(err => console.log(err.message))
+.finally(() => console.log("Finished Promise!"))
+
+
+async function start() {
+  const url = "https://api.github.com/users/Daniel3858"
+  const user = await axios.get(url) // Poderia usar um ".then".
+  const login = await user.data.login
+  console.log(login)
+}
+
+start().catch(e => console.log(e.message)) */
 
